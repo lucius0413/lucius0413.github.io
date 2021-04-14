@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>君山～一点</title>
   
-  <subtitle>君山</subtitle>
+  <subtitle>君山亭</subtitle>
   <link href="https://lucius0413.github.io/atom.xml" rel="self"/>
   
   <link href="https://lucius0413.github.io/"/>
-  <updated>2021-04-13T15:53:21.086Z</updated>
+  <updated>2021-04-14T16:39:48.818Z</updated>
   <id>https://lucius0413.github.io/</id>
   
   <author>
@@ -17,9 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://lucius0413.github.io/:/abbrlink"/>
+    <id>https://lucius0413.github.io/:/abbrlink</id>
+    <published>2021-04-14T16:34:58.000Z</published>
+    <updated>2021-04-14T16:39:48.818Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;新增了支持子目录部署的功能（如：Gitee）；&lt;/li&gt;
+&lt;li&gt;新增了 MiniValine 评论系统；&lt;/li&gt;
+&lt;li&gt;新增了 jsdelivr 的支持；&lt;/li&gt;
+&lt;li&gt;修复了诸多发现的</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Typora" scheme="https://lucius0413.github.io/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="https://lucius0413.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
-    <link href="https://lucius0413.github.io/2021/04/13/hello-world/"/>
-    <id>https://lucius0413.github.io/2021/04/13/hello-world/</id>
+    <link href="https://lucius0413.github.io/:/abbrlink"/>
+    <id>https://lucius0413.github.io/:/abbrlink</id>
     <published>2021-04-13T15:53:21.086Z</published>
     <updated>2021-04-13T15:53:21.086Z</updated>
     
