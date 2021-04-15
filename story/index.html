@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="test, HTML,CSS,JavaScript,JQuery,Node,Vue.js">
+    <meta name="keywords" content="story, HTML,CSS,JavaScript,JQuery,Node,Vue.js">
     <meta name="description" content="分享生活，分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>test | 君山～一点</title>
+    <title>story | 君山～一点</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -78,12 +78,35 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/categories" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
       <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
       
       <span>分类</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/focus">
+          
+          <i class="fas fa-hammer" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Focus</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/edge">
+          
+          <i class="fas fa-mountain" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Edge</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -168,6 +191,15 @@
         </a>
       </li>
       
+      <li>
+        <a href="/story">
+          
+          <i class="fas fa-paw" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Story</span>
+        </a>
+      </li>
+      
     </ul>
     
   </li>
@@ -222,12 +254,36 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/categories" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-bookmark"></i>
+				<i class="fa-fw fas fa-bookmark"></i>
 			
 			分类
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/focus " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-hammer" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Focus</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/edge " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-mountain" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Edge</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -315,6 +371,16 @@
                   </a>
                 </li>
               
+                <li>
+
+                  <a href="/story " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-paw" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Story</span>
+                  </a>
+                </li>
+              
             </ul>
           
         </li>
@@ -398,12 +464,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">test</h1>
+                    <h1 class="description center-align post-title">story</h1>
                 </div>
             </div>
         </div>
@@ -517,20 +583,21 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Typora/">
-                                <span class="chip bg-color">Typora</span>
-                            </a>
-                        
-                            <a href="/tags/Markdown/">
-                                <span class="chip bg-color">Markdown</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/" class="post-category">
+                                
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -539,7 +606,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-04-15
+                    2021-04-16
                 </div>
                 
 
@@ -548,7 +615,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    39
+                    2.6k
                 </div>
                 
 
@@ -568,12 +635,95 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <ul>
-<li>新增了支持子目录部署的功能（如：Gitee）；</li>
-<li>新增了 MiniValine 评论系统；</li>
-<li>新增了 jsdelivr 的支持；</li>
-<li>修复了诸多发现的 bug；</li>
-</ul>
+                <p>某天清晨，睡眼惺忪的我撩起窗帘，漏进一缕眩目的阳光。我也不遮挡，就这么眯着眼睛站着，听着近处的声音，心绪飘散开了。</p>
+<pre><code>灰白的云层流溢轻散，夜幕染色不很均匀。远天凝暗深黑，但他们行走过那些地方的穹顶，却只是轻纱遮掩，微薄的月色依然照人。 
+淅淅沥沥，冬小雨，路上有疏落的行者。
+岸上一株垂柳的枝条在空气里曳动；湖面上点点圈圈微黄色的波光荡漾着，凉风吹皱了水中模糊不清的倒影，也撩拨起他敏感的心弦。 
+情绪也可以成为声乐罢？
+飘摇的藤蔓下面，双人椅飞散出来几缕轻快歌声。女孩的清音和着伴奏，旋律与靠坐在椅上凝望湖畔的男孩的波心引起共鸣。
+他突然笑了，视线收回近处却不看向那女孩，若有所想。
+她停住发问：“你是觉得不好听吗？”
+“不，很好听。”他微笑，依然没有看女孩。
+“雨好像停了，走吧，去别处转转。”她说。
+“嗯。”
+空气湿暖。
+沟渠旁的坡上，两人都止住脚步，见到路边花开，染了一树白。女孩走上前去，俯身嗅着香气，目迷神醉。她摘下一朵。
+草木虽无本心，然使美人感怀而折之，遂花与人面交相映，成为了风景。
+“来踢毽子吧！”她兴奋的样子像个小孩。
+“来啊，怕你不成。”
+“哎啊…”
+“你小心点好吧！”
+“哼。”
+一下两下，有风，飞花。他仿佛看见一叶花瓣从虚空隐现，而后缓缓从她发间坠下，细看却是看错了。
+三朵四朵，斜坡上洒满了片片莹白，被风吹着往下落，没入丛中消失不见。
+落花双人立。不知觉间，再飘微雨。雨中逐玩的人宛似精灵，跃然的欢喜盈满灰沉的穹冥、厚实的黄土，整个天地变小了。
+拂面的柳风不寒，只是温润，如情人手抚过耳际，那漫天花雨却打湿了衣帽。他看见她的发梢沾上水滴，催促道：“雨要下大了，我们去檐下躲雨吧。”
+
+下雨天在很多微妙的时刻是很美的。窗外绵密的雨幕会遮掩高楼乱树，它将使远青山戴纱，空空蒙蒙、混混融融。若能得见澄澈的水滴滚落枝叶、听闻潺潺的雨声盖过嘈杂世音，最为幸甚。
+男孩随意地拍了拍染湿的衣服，转而看向女孩——靠着冰冷的柱子，发间滴着水，她一动不动地盯着这雨在发呆。
+他知道自己产生了某种伤感，却没有找得出缘由。
+他觉得：雨是她的，她在雨声里，而他呢？
+
+今晚没有月亮，男孩呼吸着变得有些湿热的空气。他低头看了下腕表上跳动的数字，它们一闪一闪地伴随着沉默不语的影子。
+可是夜色依然迷人，对，她说出去走走。
+从未感到这样放松过，躺在丛丛野草间，望着层次分明的天空被灰白色的云朵从四面八方侵袭，枕在他手臂上的女孩双唇紧闭，眼睛微阖，睫毛在轻颤着。气氛有些诡异，他用手指缓缓拂过她额前的刘海，神情专注而且肃穆。
+“怎么样，很整齐吧，我自己剪的诶，很厉害吧！”她的嘴角勾勒出一丝得意的弧度。
+“嗯，对，”他笑着回应，随即把腾出的一只手摸向周围的草丛，抓来些许碎叶子撒在她的脸上：“就属你厉害，哈哈。”
+她挥了挥不知何时攥在手中的一把草屑示威般地睨着他。“我错了……”然而他的跃跃欲试却怎么也掩饰不住。
+沉默片刻后。“今天是你生日，想要什么礼物？”她柔声发问。“不能太过分啊！”她又连忙补充了一句。
+“呀！啥？还没想好怎么办？明天告诉你行不行？”
+“哦，那就算了，别怪我咯。”她黑亮的眸中闪着狡黠。
+两个人又都安静了。
+“那个，我想好了，我想抱一下你，可以吗？”男孩打破静谧。
+不经意得像是走在野外，突然碰见一株树，上面结满了滋味很美的果实；又好似忽然轻轻地就推开了一扇门，却发现那不是自己的房间。
+他紧盯着她。
+</code></pre>
+<p>   “就这个当成你的生日礼物，你确定？”完全看不出任何表情，她慢慢地吐字，“好…可以。”<br>    斜坡上的草地微微蒸腾出寒意。没有多余的话语，四目对望一眼，相拥入怀。<br>    嗯…嗯？他深吸了一口气，奇怪，好像心跳并没有加速，错觉？也许是吧。<br>    他不敢用力却认真地抱着怀中柔软的身躯。<br>    错觉吗？弥散着的馨香让他清醒了不少。<br>    “好想就这么一直抱着，”他纷乱的思绪中冒出一缕期许，“但是好尴尬啊，完全看不见她的神色变化。”无奈之下，他只好慢慢地松开。<br>    注意到只穿短袖的她身体微微蜷缩着，他低声问：“冷吗？”<br>    “嗯，有点。”<br>    “要不，我再抱一会？”男孩心疼了，下意识地说道。<br>    “喂，你…”她突然出声，眉眼间浮现出不自然。<br>    他迟疑起来，“好吧，我们去走走吧。”他的心里涌上强烈的失落。<br>    起身之后女孩走近他，抓着那麻木的右臂轻捏，说：“还好吧？我帮你揉揉。”他只是看她，没有说话。<br>    他觉得胸中有点空落落的。<br>    这一抱之后，跳动的心仿佛多了些东西。没有被某物萦满，而像是被什么镌刻过。方寸变大了，宛如鹏鸟逍遥神游天地般畅快。<br>    站在沉沉的天幕下，晚风微凉。他瞥见身后的树丛模糊成几个黑块，影子拉得很长，一直延伸到天地交界，去拽着已经落下的太阳，回传过一阵暖流，像他手臂上那样的感觉。</p>
+<pre><code>从最近的忙乱里偷出几分闲情，不去听他们瞎扯什么白骆驼。心有灵犀一般地，他刚点开消息就看到了她的留言：“去散散步怎么样，老地方见，你知道吧。”
+他回了信息，快步下楼。
+她已经在那里了。
+“去哪？”
+“跟我走就是，有点远。”她催促着。
+“我怕你把我卖了好吧，”他点了点头，有些疑惑：“怎么想起叫我了？”
+“路上黑啊，我朋友比较少，你不是应该感到高兴吗？”她一脸的理所应当。
+看着女孩熟练地左弯右拐穿过一条条街道，他默默地紧跟着她，身后有街灯明亮，也有黯淡的门市排档。因为气氛有些压抑，他问：“大概要走多久啊？你还没告诉我去哪呢？”
+“一小时吧，摩天轮你知道吗？”
+他了然，脸上挂起早已料到的神情。
+好比竞走的散步，让男孩下意识地摸了摸自己的饱腹，他一向有胃痛的毛病。望着前方轻盈的身影，说了声抱歉，他提议走慢一点。    
+幸而摩天轮终于可见轮廓。
+“咦，它不动诶！”他大感奇怪。
+“你是不是傻，它在动啊！”
+他当即撇了撇嘴：“我怎么可能是傻，我是瞎好吗？”
+“哇，这红色叶子的树好漂亮啊，你让一让别挡我拍照。”她欣喜地说着，绕过他围着树观赏。
+她忽然开始吟诗：“红豆生南国，春来发几枝。”
+“呵，你还有这雅兴啊，不错不错。”男孩击掌表达赞赏。他的视线却飘过了鲜艳的树叶，看到很高的夜空有一个点特别明亮。
+“我们去里边看看吧。”她提议道。
+往里面走的路被转角一盏昏黄的灯光照亮，错落的几座店铺只有这家营业。三两游客，和江面上空稀少的星星共同成为了这黑寂情境的点缀。
+“这里是个杀人抛尸的好地方。”不知道为什么，他揶揄道。
+“嗯，这里确实是个抛尸的好地方。”她也什么都没有想，附和着。
+踩着硌脚的碎石和梆硬紧轧的沙子，更不是件有趣的事。
+风真的很大，伴着天降寒露，凛冽刺骨。
+女孩蹲下身子抓起了一把泥巴，他下意识就想转身躲开。
+“这泥巴好软，可以做个面膜，快帮我接着，不许扔了。”她兴奋地大喊。
+男孩叫嚣：“真想把它弄在你脸上。”
+“呵呵，你敢？”她不屑地看着他，另一只手往水底探去。
+      “你不要拆穿我好吗？”他只有无可奈何，心里满胀起来，身上却不由一阵冷：“注意安全好吧，手赶紧拿回来，等会儿去洗手间洗好了。”
+“是呀，我怎么没想到，你真聪明！”
+“……”他翻一翻白眼，无言可对。
+归去，星疏夜暗，乌云浮游在很遥远的天幕上，周围似乎弥漫着一层几不可见的雾气，寒风也吹散不了。
+男孩想起一件事，压抑住脱口话语里可能带有的情感，问她：“以后想干点啥？”
+“我们不谈这个。”她的反应很激烈。随后反问：“为什么你想起问这个？”
+他有点伤感，语调却平缓：“没什么，只是突然想起而已。”
+“哎呀…我只是…走吧。”她加快了步伐，像是在摆脱、躲避什么。
+
+男孩停驻了片刻，江水的声音传不到这里。
+抬头凝望，灰纱似的片云还在聚散，或明或暗的星依然闪烁。再看前方她的身影已经有些远，赶紧跟了上去。
+                    
+“你知道吗，我想看到你心中的海。”  他低喃着。
+“我好像说过，君子之交淡如水？”
+“哦。。。”
+“其实吧。。。”
+</code></pre>
 
                 
             </div>
@@ -600,7 +750,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lucius0413.github.io/2021/04/15/test">https://lucius0413.github.io/2021/04/15/test</a>
+                    <a href="https://lucius0413.github.io/story/index.html">https://lucius0413.github.io/story/index.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -637,15 +787,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/Typora/">
-                                    <span class="chip bg-color">Typora</span>
-                                </a>
-                            
-                                <a href="/tags/Markdown/">
-                                    <span class="chip bg-color">Markdown</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -820,13 +962,13 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/04/15/test">
+                <a href="/story/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="test">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="story">
                         
-                        <span class="card-title">test</span>
+                        <span class="card-title">story</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -837,29 +979,21 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-15
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-16
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Alfred Wen
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/" class="post-category">
+                                    
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Typora/">
-                        <span class="chip bg-color">Typora</span>
-                    </a>
-                    
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
-                    </a>
-                    
-                </div>
                 
             </div>
         </div>
@@ -867,16 +1001,16 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2021/04/13/hello-world">
+                <a href="/story/index.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="story">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">story</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -887,16 +1021,21 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-16
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Alfred Wen
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/" class="post-category">
+                                    
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
